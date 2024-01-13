@@ -1,30 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body style="background-color: #afd2e9;" >
+
 <form>
 
-    <div>
+    <div class="input1" >
         <label for="fname">Nom:</label>
         <input type="text" id="fname" name="fname" placeholder="Prénom">
         <input type="text" id="lname" name="lname" placeholder="Nom">
     </div>
     
-    <div>
+    <div class="input2">
         <label for="minor">Mineur:</label>
-        <input type="radio" id="minor" name="minor" value="Mineur">
+        <input type="radio" id="minor" name="minormajor" value="Mineur">
 
         <label for="major">Majeur:</label>
-        <input type="radio" id="major" name="major" value="Majeur">
+        <input type="radio" id="major" name="minormajor" value="Majeur">
+    </div>
+    <div class="input3">    
+    <label for="age">Âge:</label>
+    <input type="number" id="age" name="age">
     </div>
 
-    <div>
-        <label for="age">Âge:</label>
-        <input type="number" id="age" name="age">
+    
+    <div class="input2">
+        <p>
+        Êtes-vous actuellement enrôlé dans un établissement d'éducation 
+        post-secondaire de la région de Montréal? </p>
+        <label for="oui">Oui:</label>
+        <input type="radio" id="oui" name="ouinon1" value="Oui">
+
+        <label for="non">Non:</label>
+        <input type="radio" id="non" name="ouinon1" value="Non">
+        
+    </div>
+    <div class="input3">
+        <label for="building">Si oui, lequel?</label>
+        <input type="text" id="building" name="building" placeholder="Établissement">
     </div>
 
-    <div>
-        <label for="fname">First Name:</label>
-        <input type="radio" id="fname" name="fname">
+    <div class="input2"> 
+        <p>Les tournées auront principalement lieu aux alentours de midi. Combien de 
+            fois par mois pensezvous pouvoir participer à une tournée?</p>
+        <input type="number" id="nombre de fois" name="nombre de fois" value="nombre de fois">
+    </div>
+    <div class="input2">
+        <p>Et pour la préparation des produits?</p>
+        <input type="number" id="nombre de fois2" name="nombre de fois2" value="nombre de fois2">
     </div>
 
-<! o great html tell me. why am i stupid>
+    <div class="input2">
+        <p>
+            Seriez-vous prêt à participer à une tournée ou à la 
+            préparation de produits les fins de semaines? </p>
+        <label for="oui">Oui:</label>
+        <input type="radio" id="oui" name="ouinon2" value="Oui">
+
+        <label for="non">Non:</label>
+        <input type="radio" id="non" name="ouinon2" value="Non">
+    </div>
+    <div class="input2">
+        <p>Seriez-vous prêt à participer à une tournée ou à la préparation des produits certains jours fériés? </p>
+        <label for="oui">Oui:</label>
+        <input type="radio" id="oui" name="ouinon3" value="Oui">
+
+        <label for="non">Non:</label>
+        <input type="radio" id="non" name="ouinon3" value="Non"> 
+    </div>
+    
+    <div class="input3">
+        <label for="ferier">Si oui, lesquels?</label>
+        <input type="text" id="ferier" name="ferier" placeholder="Jours fériers">
+    </div>
+    
+    <div class="input2"> 
+    <p>Avez-vous de l'expérience d'interaction avec des service aux itinérants? 
+        Avec des personnes toxicomanes ou souffrant de problèmes de santé mentale graves? 
+        Avec des personnes agressives ou violentes? Précisez. (Votre réponse à cette 
+        question n'influencera pas votre admission au sein de l'équipe de Ganymède).</p>    
+    <input type="text" id="expérience" name="expérience">
+    </div>
+
+    <div class="input2">
+        <p>Avez-vous reçu des formations en premiers soins ou premiers secours? 
+            Précisez. (Votre réponse à cette question n'influencera pas votre admission 
+            au sein de l'équipe de Ganymède).</p>    
+        <input type="text" id="soins" name="soins">
+    </div>
+
+    <div class="input2">
+        <p>Avez-vous une expérience autre quelconque dont vous pensez 
+            qu'elle pourrait vous être utile dans le contexte des activités 
+            de Ganymède ? Précisez.</p>    
+        <input type="text" id="expérience2" name="expérience2">
+    </div>
+    <div class="input2">
+        <p>
+            Acceptez-vous que Ganymède demande à consulter votre casier judiciaire? 
+            Cette procédure est nécessaire pour que vous puissiez participer aux activités 
+            de Ganymède. Si vous n'avez pas de casier judiciaire, elle ne donnera à 
+            Ganymède aucune information sur vous. Si vous avez un casier judiciaire, 
+            vous pourrez quand même probablement participer aux activités de Ganymède. </p>
+        <label for="oui">Oui:</label>
+        <input type="radio" id="oui" name="ouinon4" value="Oui">
+
+        <label for="non">Non:</label>
+        <input type="radio" id="non" name="ouinon4" value="Non">
+    </div>
+
+    <div class="input2">
+        <a href="thanks.html">
+            <button>Soumettre</button>
+        </a>
+    </div>
+<!--  o great html tell me. why am i stupid> -->
 
 
 </form>
+</body>

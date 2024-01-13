@@ -1,0 +1,74 @@
+body{
+    background-color: #afd2e9
+}
+
+#h1{
+    font-size:80px;
+    margin-left:30px;
+    text-align:center;
+}
+
+#para1{
+    margin-right:600px;
+}
+
+.rectangle{
+    height: 100px;
+    width: 1265px;
+    background-color: #ad343e;
+    position:relative;
+}
+
+.rectangle2{
+    width: 1300px;
+    height:200px;
+    margin: -20px;
+    background-color: #001b2e;
+}
+
+a:link{
+    color:#afd2e9;
+}
+
+a:visited{
+    color: white;
+}
+
+.text{
+    font:roboto;
+    margin: 30px
+}
+
+.header{
+    margin:25px
+}
+
+.plaintext{
+    color:white;
+    font: roboto;
+}
+
+#extrainfo{
+    text-indent:50px;
+    position:relative;
+}
+
+.input1 {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40em
+}
+
+.input2 {
+    margin-top: 60px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40em
+}
+
+.input3 {
+    margin-top: 5px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40em
+}
